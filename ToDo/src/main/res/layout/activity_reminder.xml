@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_reminder_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:maxLines="10"
+            android:padding="@dimen/_15sdp"
+
+            android:text="@string/app_name"
+            android:textColor="@color/icons"
+            android:textSize="@dimen/_15sdp" />
+
+
+        <LinearLayout
+            android:id="@+id/toDoReminderLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:paddingTop="24dp">
+
+            <TextView
+                android:id="@+id/reminderViewSnoozeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1.5"
+                android:drawableLeft="@drawable/ic_add_alarm_b"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="@string/snooze"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/todoReminderSnoozeSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="16dp"
+
+                android:layout_weight="1.5"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/toDoReminderDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableRight="@drawable/ic_delete_b"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="Delete"
+             />
+
+        <Button
+            android:id="@+id/toDoReminderDoneButton"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableRight="@drawable/ic_done_w"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="Done"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</RelativeLayout>
