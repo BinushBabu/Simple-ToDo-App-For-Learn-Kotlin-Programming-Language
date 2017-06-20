@@ -41,6 +41,16 @@ Prerequisites for this beginning Android development :
 - add search in history page with sorting and filtering
 - add call and message option in notification as well as reminder screen
 
+# sreen shots : 
+
+<img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/1.png" width="200"><img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/2.png" width="200"><img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/3.png" width="200">
+<img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/4.png" width="200">
+<img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/5.png" width="200">
+<img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/6.png" width="200">
+<img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/7.png" width="200">
+<img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/8.png" width="200">
+<img src="https://raw.githubusercontent.com/BinushBabu/Simple-ToDo-App-For-Learn-Kotlin-Programming-Language/master/scren%20shots/9.png" width="200">
+
 
  
  
